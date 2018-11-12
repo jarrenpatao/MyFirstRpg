@@ -1,0 +1,30 @@
+h3 {
+  margin-left: 25px;
+}
+
+#heRow img {
+  width: 150px;
+  height: 150px;
+  margin-left: 0 auto;
+}
+
+.pl {
+  margin-left: 10px;
+}
+
+.playaFrame {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: transparent;
+  border-radius: 7px;
+  float: left;
+}
+
+.container {
+  margin-left: 20px;
+}
+
+#attack {
+  margin-left: 25px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Doc Title -->
+  <title>Gary & Fiends</title>
+  <!-- Reset/Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Attack animation -->
+  <link rel="stylesheet" type="text/css" href="assets/css/pkeyframe.css">
+</head>
+
+
+<body>
+
+  <h2 id="choose-enemy"></h2>
+    <div class="container" id="heRow">
+      
+      <div class="row">
+        <div class="col-md-3 playaFrame" id="garyBox">
+          <div class="row">
+            <div class="col">Gary</div>
+          </div>
+          <div class="row pl">
+            <img src="assets/images/generic-rpg-pack_v0.3_(alpha-release)_vacaroxa/rpg-pack/chars/gabe/1g.png">
+          </div>
+          <div class="row">
+            <div class="col" id="garyHp"></div>
+          </div>
+        </div>
+
+        <div class="col-md-3 playaFrame" id="maniBox">
+          <div class="row">
+            <div class="col">Mani</div>
+          </div>
+          <div class="row pl">
+            <img src="assets/images/generic-rpg-pack_v0.3_(alpha-release)_vacaroxa/rpg-pack/chars/mani/ezgif.com-crop (2).png">
+          </div>
+          <div class="row">
+            <div class="col" id="maniHp"></div>
+          </div>
+        </div>
+
+        <div class="col-md-3 playaFrame" id="jellyBox">
+          <div class="row">
+            <div class="col">Jelly</div>
+          </div>
+          <div class="row pl">
+            <img src="assets/images/generic-rpg-pack_v0.3_(alpha-release)_vacaroxa/rpg-pack/mobs/boss_bee.png">
+          </div>
+          <div class="row">
+            <div class="col" id="jellyHp"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <h2>Choose yo' playa, Playa.</h2>
+    <div class="row">
+        <div class="container col-md-12" id="isSelected"></div>
+    </div>
+    
+    <h2>Fight-o!</h2>
+    <button id="attack" class="btn btn-success btn-choice">
+        <h1>Attack!</h1>
+    </button>
+    <h2>Defender</h2>
+    <div class="row">
+        <div class="container col-md-12" id="enemy"></div>
+    </div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+
+</html>
+
