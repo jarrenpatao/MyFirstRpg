@@ -1,7 +1,10 @@
+body {
+  margin: 5px;
+}
+
 .main {
   margin: 0 auto;
   background-color: rgb(4, 99, 83);
-  margin-top: 50px;
   border-radius: 10px;
 }
 
