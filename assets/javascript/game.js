@@ -32,6 +32,7 @@ var reset = function(){
   var gary = {
     appear: $('#garydiv'),
     showHp: $('#garyHp'),
+    showAtk: $('#garyAtk'),
     charName: gary,
     hp: 60,
     atk: 15,
@@ -43,6 +44,7 @@ var reset = function(){
   var mani = {
     appear: $('#manidiv'),
     showHp: $('#maniHp'),
+    showAtk: $('#maniAtk'),
     charName: mani,
     hp: 45,
     atk: 20,
@@ -54,6 +56,7 @@ var reset = function(){
   var jelly = {
     appear: $('#jellydiv'),
     showHp: $('#jellyHp'),
+    showAtk: $('#jellyAtk'),
     charName: jelly,
     hp: 30,
     atk: 12,
@@ -62,9 +65,12 @@ var reset = function(){
     isBadguy: false,
     active: true 
   }
-  $(gary.showHp).text(gary.hp)
-  $(mani.showHp).text(mani.hp)
-  $(jelly.showHp).text(jelly.hp)
+  $(gary.showHp).append(gary.hp)
+  $(gary.showAtk).append(gary.atk)
+  $(mani.showHp).append(mani.hp)
+  $(mani.showAtk).append(mani.atk)
+  $(jelly.showHp).append(jelly.hp)
+  $(jelly.showAtk).append(jelly.atk)
   playa = '';
   badguy = '';
   $('.myGuy').append('#heRow');

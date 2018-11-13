@@ -1,11 +1,21 @@
-h3 {
-  margin-left: 25px;
+.main {
+  margin: 0 auto;
+  background-color: rgb(4, 99, 83);
+  margin-top: 50px;
+  border-radius: 10px;
 }
 
-#heRow img {
-  width: 150px;
-  height: 150px;
-  margin-left: 0 auto;
+h3 {
+  font-size: 28px;
+  font-weight: bolder;
+  color: #fff;
+}
+h4 {
+  color: #fff;
+  font-size: 26px;
+}
+text {
+  color: #fff;
 }
 
 .pl {
@@ -13,18 +23,29 @@ h3 {
 }
 
 .playaFrame {
-  position: relative;
-  width: 1.5rem;
-  height: 1.5rem;
-  background: transparent;
-  border-radius: 7px;
-  float: left;
+  margin: 4%;
 }
-
-.container {
-  margin-left: 20px;
+.playaFrame img {
+  margin-left: 70px;
+  height: 70px;
+  width: 70px;
 }
-
-#attack {
-  margin-left: 25px;
+#heRow {
+  padding-top: 1px;
+  margin: 5px;
+}
+#garyBox {
+  background-color: royalblue;
+  border-radius: 10px;
+}
+#maniBox {
+  background-color: cornflowerblue;
+  border-radius: 10px;
+}
+#jellyBox {
+  background-color: turquoise;
+  border-radius: 10px;
+}
+#choosey {
+  margin: 0 auto;
 }
